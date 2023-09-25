@@ -1,0 +1,77 @@
+body{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpttOkHZEinz-qc1V6eEp-a2tFlAuRu-KOkA&usqp=CAU);
+  
+    width: 100%;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+   margin: 0%;
+    height: auto;
+}
+
+
+.input-place{
+    width: 65%;
+    height: 45px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.792);
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    color: black;
+}
+.input-place:focus{
+    outline: none;
+}
+
+.input-button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 25px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: #a549cf;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.input-button:hover{
+   background-color: rgb(255, 255, 255);
+   border: none ;
+   color: #a549cf;
+}
+
+
+.location-weather{
+   background-color: #34525e98;
+   transition: 0.5s;
+}
+
+i{
+    font-size: 1.5rem;
+    margin: 5px;
+}
+span{
+    font-size: 1.5rem;
+}
+.weather-portion{
+    background-color: #34525e98;
+    transition: 0.5s;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+@media screen and (max-width: 501px) {
+    body {
+     height: 100%;
+    }
+  }
+
+  #animeLocation:hover,.location-weather:hover{
+    background-color: #34525e98;
+    transform: scale(97%);
+}
+  
